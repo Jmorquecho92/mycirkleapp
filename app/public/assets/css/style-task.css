@@ -1,0 +1,111 @@
+body {
+    padding-top: 10px;
+    font-family: serif;
+    background-color: lightcyan;
+}
+
+#user .avatar {
+    width:60px;
+   }
+#user .avatar > img{
+   width:50px;
+   height:50px;
+   border-radius:10%;
+   }
+
+/* table*/
+#user .panel-table{
+  animation-duration:3s;
+}
+
+#user .panel-table .panel-body .table{
+  margin:0px;
+}
+#user .panel-table .panel-body {
+  padding:0px;
+}
+#user .panel-table .panel-body .table-bordered > thead > tr > th{
+  text-align:center;
+}
+#user .panel-table .panel-footer {
+  height:60px;
+  padding:0px;
+}
+
+.btn-success
+   {
+      transition: 0.5s;
+   }
+
+   .btn-success:hover, .btn-success:focus
+   {
+      background: white;
+      border-color: #5cb85c;
+      color: black;
+      transition: all 0.4s;
+   }
+
+   .btn-warning
+   {
+      transition: 0.5s;
+   }
+
+   .btn-warning:hover, .btn-warning:focus
+   {
+      background: white;
+      color: black;
+      border-color: #f0ad4e;
+   }
+
+   .panel.with-nav-tabs .nav-tabs
+   {
+      border-bottom: none; 
+   }
+   .panel.with-nav-tabs .nav-justified
+   {
+      margin-bottom: -4px;
+   }
+
+   .panel
+   {
+      margin: 7%;
+   }
+
+   .modal-header
+   {
+      background: #FF3838;
+      color: white;
+      text-align: center;
+   }
+
+   .input-group-addon
+   {
+      background-color: #5cb85c;
+      color: white;
+   }
+
+   .iga1
+   {
+      background-color: #f0ad4e; 
+      color: white;
+   }
+
+   .iga2
+   {
+      /* background-color: #FF3838;m*/
+
+      background-color: lightskyblue;
+      color: white;
+   }
+
+.modal-header{
+     background-color:lightskyblue;
+     color: white;
+}
+
+.modal-title{
+     color: white;
+}
+.modal-content {
+    overflow:hidden;
+}
