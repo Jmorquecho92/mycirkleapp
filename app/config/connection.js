@@ -7,8 +7,8 @@ var Sequelize = require("sequelize");
 
 if (process.env.JAWSDB_URL) {
   // Creates mySQL connection using Sequelize
-      var sequelize = new Sequelize("mycirkle", "root", "Tabestan_20", {
-      host: "process.env.JAWSDB_URL",
+      var sequelize = new Sequelize("mycirkle", "root", "", {
+      host: "localhost",
       dialect: "mysql",
       pool: {
         max: 5,
@@ -20,7 +20,7 @@ if (process.env.JAWSDB_URL) {
 else
 {
   // Creates mySQL connection using Sequelize
-  var sequelize = new Sequelize("mycirkle", "root", "Tabestan_20", {
+  var sequelize = new Sequelize("mycirkle", "root", "", {
   host: "localhost",
     dialect: "mysql",
     pool: {
