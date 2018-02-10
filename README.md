@@ -1,2 +1,3 @@
-# project2
-Repository for Project #2
+MyCirkle
+
+MyCirkle is a task manager application. 
